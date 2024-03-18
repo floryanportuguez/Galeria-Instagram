@@ -1,0 +1,39 @@
+.navbar{
+    border-bottom: 2px solid gray;
+}
+
+.btn-light{
+    background-color: #00B020 ;
+    color: #FFFFFF ;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.margen{
+    margin-top: 70px;
+}
+.seg-ter{
+    margin-top: 10px;
+}
+.card{
+    margin: 60px auto;
+    width: 600px;
+}
+.card-header{
+    padding: .75rem 15px;
+}
+.titulo{
+    display: inline-block;
+}
+.btn-link{
+    float: right;
+    color: gray;
+    padding-right: 0px;
+}
+.card-body{
+    padding: 15px;
+}
+

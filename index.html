@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="Esilo.css">
+	
+    <title>Instagram Galeria</title>
+	</head>
+	
+<body>
+    <!-- navegación -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i> Instagram</span>
+        <form class="form-inline">
+            <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
+            type="button">Crear un nuevo post</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
+                aria-haspopup="true"  aria-expanded="false" > <!-- menú desplegable asociado y que actualmente está cerrado o no expandido -->
+                    <i class="fas fa-cog"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Accion</a> <!-- al tener href="#", la acción predeterminada del enlace se desactiva-->
+                    <a class="dropdown-item" href="#">Otra accion</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                </div>
+            </div>
+        </form>
+    </nav>
+    <!-- Navegación hacia lista -->
+	<nav aria-label="Page navigation example" class="margen">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                <i class="fas fa-th"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary" href="lista.html">■</a></li>
+        </ul>
+    </nav>
+    
+    <!-- IMÁGENES -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col px-0 ml-1">
+                <img src="https://img.freepik.com/foto-gratis/primer-disparo-flor-morada_181624-25863.jpg" class="tamaño-img">
+            </div>
+            <div class="col px-0">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/045/470/small/purple-cosmos-flowers-in-the-garden-photo.jpg" class="tamaño-img" >
+            </div>
+            <div class="col px-0">
+                <img src="https://www.bbva.com/wp-content/uploads/2023/02/bbva-sostenibilidad-flores.jpg" class="tamaño-img">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid seg-ter">
+        <div class="row">
+            <div class="col px-0 ml-1">
+                <img src="https://centrodejardineriagorbeia.com/wp-content/uploads/2022/04/Tulipanes-significadoflores-1024x678.jpg" class="tamaño-img">
+            </div>
+            <div class="col px-0">
+                <img src="https://www.flores.ninja/wp-content/uploads/2017/05/Flores.jpg" class="tamaño-img">
+            </div>
+            <div class="col px-0">
+                <img src="https://blog.savegnago.com.br/wp-content/uploads/2022/08/como-cuidar-de-flores-1024x683-1.webp" class="tamaño-img">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid seg-ter">
+        <div class="row">
+            <div class="col px-0 ml-1">
+                <img src="https://cdn.unotv.com/images/2023/10/tipos-de-flores-azules-jpg-154626-1024x576.jpg"class="tamaño-img">
+            </div>
+            <div class="col px-0">
+                <img src="https://img.freepik.com/fotos-premium/ramo-flores-flor-azul-rosa_861171-2523.jpg" class="tamaño-img">
+            </div>
+            <div class="col px-0">
+                <img src="https://img.freepik.com/fotos-premium/hay-flor-grande-que-medio-ramo-flores-ai-generativo_1034559-410.jpg" class="tamaño-img">
+            </div>
+        </div>
+
+    </div>
+	
+	
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-camera"></i>
+                    </button>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success">Publicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	 
+  </body>
+</html>
